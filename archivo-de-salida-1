@@ -1,0 +1,11 @@
+# voy a calcular la edad 
+
+edad=int(input("dime cuántos cumples este año"))
+
+year = 2021 - edad # calcular edad 
+
+# Aquí vamos abrir la salida hacia un archivo 
+
+f = open("datosUxía.txt", "at") # atentos con w sobreescribe y a agrega al anterior 
+f.write("Uxía nació en el año " + str(year)+"\n") # se escribe lo deseado 
+f.close() # hay que cerrar SIEMPRE el archivo
