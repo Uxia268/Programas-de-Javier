@@ -1,0 +1,12 @@
+"""
+06/04/2021
+uxia
+"""
+print('uxia 3') # aquí escribo mi nombre 
+print()
+print("¡hola,mundo!") 
+
+num1= int(input("dame un número: "))
+
+nombre=input ("¿Cómo te llamas?")
+print(nombre)
