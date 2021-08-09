@@ -1,0 +1,4 @@
+f = open('Hola.txt','rt') # modo lectura r tipo de texto t 
+miSaludo = f.read()
+print(miSaludo)
+f.close()
