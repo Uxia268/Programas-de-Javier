@@ -1,0 +1,30 @@
+'''Creación de un menú sencillo 
+fecha de creación:11/05/2021 por Uxía Mora Vidal '''
+
+# voy a preguntar el nombre 
+#print('Hola, buen día. ¿Cómo te llamas ')
+#nombre=input()
+
+nombre = input("hola, buen día ¿cómo te llamas? ")
+print('Bienvenido',nombre, 'ahora vas a ofrecerme por favor dos números')
+print('escribe el primer número ')
+a=int(input())
+print(' escribe el segundo número')
+b=int(input())
+
+print("Ahora vamos a efectuar alguna operación matematica de tu preferencia Seleciona: suma(s) resta(r) multiplicación(m) potenciación(p)")
+operacion = input()
+
+#bloque de condicionales 
+
+if operacion =='s':
+  suma=a+b
+  print("el resultado de la suma es:",a+b)
+elif operacion =='r':
+  print('el resultado de la resta es :',a-b)
+elif operacion =='m':
+  print('el resultado de la multipicación es ',a*b)
+elif operacion =='p':
+  print('el resultado de la potencia es ', a,'^',b,)
+else : 
+    print('no has escrito correctamente la opción')
