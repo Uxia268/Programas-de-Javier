@@ -1,0 +1,21 @@
+''' 
+fechas de creación: 16/04/2021 Nombre: Uxía continuación del las pruebas en paython 
+'''
+# vamos a preguntar el nombre
+nombre1 =input ("¿Comó te llamas?")
+#print (nombre1)
+print("hola, "+nombre1+" ¿Comó estas?")
+print("en que año naciste")
+
+year=int(input())
+edad= 2021-year
+#print('hola',nombre1,'tienes',edad ,' años')
+
+
+#bloque condicional if elif else
+if edad > 18:
+  print("¡eres mayor de edad! felicitaciones")
+elif edad ==18:
+  print("¡bienvenido a la edad adulta!,¿que vas hacer de tu vida?")
+else:
+  print("¡aún eres muy joven !")
